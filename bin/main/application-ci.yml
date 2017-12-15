@@ -1,0 +1,9 @@
+#Database Configuration
+spring:
+  profiles: ci
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/csmartci
+    username: postgres
+    password: test@123
+
